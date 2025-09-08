@@ -11,3 +11,15 @@
 # Voer hierna de functie uit met verschillende inputs en bekijk de resultaten.
 # Let op: Het is verplicht om een functie te gebruiken!
 
+def rekenmachine(getal1, getal2, operatie):
+    if operatie == "plus" or operatie == "+":
+        print(getal1 + getal2)
+    elif operatie == "min" or operatie == "-":
+        print(getal1 - getal2)
+    elif operatie == "keer" or operatie == "x" or operatie == "*":
+        print (getal1 * getal2)
+    elif operatie == "delen" or operatie == "/" or operatie == ":" or operatie == "gedeeld door":
+        print (getal1 / getal2)
+    else: print("error")
+
+rekenmachine(1, 2, "delen")
